@@ -1,13 +1,12 @@
 /* TODO fix Layout  */
 
-header {
-  height: 80px;
-  background-color: #000;
-}
-nav {
-  min-width: 80px;
-  height: calc(100vh - 80px);
+header #navbar {
+  min-height: 80px;
   background-color: darkcyan;
+}
+#sidebar {
+  min-width: 80px;
+  background-color: #222;
 }
 #dashboard {
   height: calc(100vh - 80px);
