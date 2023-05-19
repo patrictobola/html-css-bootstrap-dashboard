@@ -18,9 +18,6 @@
 .icons a {
   text-decoration: none;
 }
-.icons i {
-  width: 30px;
-}
 
 /* TODO fix Layout  */
 
@@ -29,7 +26,7 @@ header #navbar {
   background-color: darkcyan;
 }
 #sidebar {
-  min-width: 80px;
+  min-width: 60px;
   background-image: url(../img/sidebar-bg.png);
   background-color: #051e34;
   color: white;
@@ -45,5 +42,8 @@ header #navbar {
 @media screen and (min-width: 992px) {
   #sidebar {
     min-width: 130px;
+  }
+  .icons i {
+    width: 30px;
   }
 }
