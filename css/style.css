@@ -6,6 +6,22 @@
   color: orangered;
 }
 
+/* ! MAIN */
+/* Sidebar ------------------------------------- */
+
+#sidebar > div {
+  height: 100%;
+}
+.icons {
+  padding: 3px 0;
+}
+.icons a {
+  text-decoration: none;
+}
+.icons i {
+  width: 30px;
+}
+
 /* TODO fix Layout  */
 
 header #navbar {
@@ -14,7 +30,9 @@ header #navbar {
 }
 #sidebar {
   min-width: 80px;
-  background-color: #222;
+  background-image: url(../img/sidebar-bg.png);
+  background-color: #051e34;
+  color: white;
 }
 #dashboard {
   height: calc(100vh - 80px);
@@ -26,6 +44,6 @@ header #navbar {
 /* LAPTOP --------------------------------- */
 @media screen and (min-width: 992px) {
   #sidebar {
-    min-width: 150px;
+    min-width: 130px;
   }
 }
