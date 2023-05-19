@@ -19,6 +19,12 @@
   text-decoration: none;
 }
 
+/* Dashboard Header Section -------------------------- */
+.new-student button {
+  height: 40px;
+  width: 40px;
+}
+
 /* TODO fix Layout  */
 
 header #navbar {
