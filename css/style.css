@@ -25,6 +25,11 @@
   width: 40px;
 }
 
+/* Dashboard Cards Section -------------------------------- */
+#dashboard .card-section img {
+  height: 30px;
+}
+
 /* TODO fix Layout  */
 
 header #navbar {
