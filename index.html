@@ -83,18 +83,21 @@
             <section id="dashboard">
                 <!-- Header section  -->
                 <header class="container-fluid bg-primary text-white">
-                    <div class="row">
+                    <div class="row py-3">
 
                         <!-- New Student  -->
-                        <div class="new-student col-10 py-4 d-flex align-items-center">
-                            <span class="me-3">Nuovo Studente</span>
-                            <button type="button"
-                                class="btn btn-outline-light d-flex justify-content-center align-items-center">
-                                <i class="fas fa-plus fa"></i>
-                            </button>
+                        <div
+                            class="new-student col-10 col-md-4 col-lg-3 d-flex order-md-1 justify-content-md-center mb-3">
+                            <div class="d-flex">
+                                <span class="me-3 align-self-center align-self-md-start pt-1">Nuovo Studente</span>
+                                <button type="button"
+                                    class="btn btn-outline-light d-flex justify-content-center align-items-center">
+                                    <i class="fas fa-plus fa"></i>
+                                </button>
+                            </div>
                         </div>
                         <!-- Boolean app pills  -->
-                        <div class="col-10 pb-4">
+                        <div class="col-10 col-md-4 col-lg-6 flex-grow-lg-1 pb-4">
                             <div>
                                 <h1 class="d-inline">Boolean</h1>
                                 <span class="badge rounded-pill text-bg-success">Success</span>
@@ -103,10 +106,16 @@
                                 <span class="badge rounded-pill text-bg-success">Success</span>
                                 <span class="h4">&#187;</span>
                                 <span class="badge rounded-pill text-bg-success"><i class="fas fa-plus"></i></span>
+                                <span class="badge rounded-pill text-bg-success d-none d-lg-inline">Boolean mobile
+                                    app</span>
+                                <span class="badge rounded-pill text-bg-success d-none d-lg-inline">Boolean web
+                                    app</span>
+                                <span class="badge rounded-pill text-bg-success d-none d-lg-inline">Boolean blog
+                                    app</span>
                             </div>
                         </div>
                         <!-- Online students  -->
-                        <div class="col-10 pb-4">
+                        <div class="col-10 col-md-4 col-lg-3 mb-2">
                             <div>
                                 <p class="mb-1">Studenti online negli ultimi 30 minuti</p>
                             </div>
