@@ -81,14 +81,39 @@
             </nav>
             <!-- Main Section  -->
             <section id="dashboard">
-                <header class="container-fluid bg-primary text-white h-25">
-                    <!-- New Student  -->
-                    <div class="new-student py-4 d-flex align-items-center">
-                        <span class="me-3">Nuovo Studente</span>
-                        <button type="button"
-                            class="btn btn-outline-light d-flex justify-content-center align-items-center">
-                            <i class="fas fa-plus fa"></i>
-                        </button>
+                <!-- Header section  -->
+                <header class="container-fluid bg-primary text-white">
+                    <div class="row">
+
+                        <!-- New Student  -->
+                        <div class="new-student col-10 py-4 d-flex align-items-center">
+                            <span class="me-3">Nuovo Studente</span>
+                            <button type="button"
+                                class="btn btn-outline-light d-flex justify-content-center align-items-center">
+                                <i class="fas fa-plus fa"></i>
+                            </button>
+                        </div>
+                        <!-- Boolean app pills  -->
+                        <div class="col-10 pb-4">
+                            <div>
+                                <h1 class="d-inline">Boolean</h1>
+                                <span class="badge rounded-pill text-bg-success">Success</span>
+                            </div>
+                            <div>
+                                <span class="badge rounded-pill text-bg-success">Success</span>
+                                <span class="h4">&#187;</span>
+                                <span class="badge rounded-pill text-bg-success"><i class="fas fa-plus"></i></span>
+                            </div>
+                        </div>
+                        <!-- Online students  -->
+                        <div class="col-10 pb-4">
+                            <div>
+                                <p class="mb-1">Studenti online negli ultimi 30 minuti</p>
+                            </div>
+                            <div>
+                                <span class="h1">125</span>
+                            </div>
+                        </div>
                     </div>
                 </header>
             </section>
