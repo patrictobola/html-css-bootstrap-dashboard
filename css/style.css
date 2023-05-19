@@ -2,6 +2,9 @@
 #navbar img {
   height: 50px;
 }
+.fa-bell {
+  color: orangered;
+}
 
 /* TODO fix Layout  */
 
