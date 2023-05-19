@@ -1,0 +1,17 @@
+/* TODO fix Layout  */
+
+header {
+  height: 80px;
+  background-color: #000;
+}
+nav {
+  min-width: 80px;
+  height: calc(100vh - 80px);
+  background-color: darkcyan;
+}
+#dashboard {
+  height: calc(100vh - 80px);
+  background-color: #555;
+  width: 100%;
+  overflow-y: auto;
+}
