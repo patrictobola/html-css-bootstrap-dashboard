@@ -24,6 +24,9 @@
   height: 40px;
   width: 40px;
 }
+#dashboard .badge.rounded-pill {
+  background-color: #165bba;
+}
 
 /* Dashboard Cards Section -------------------------------- */
 /* Table ------ */
@@ -32,10 +35,10 @@
 }
 
 .table-start-date {
-  width: 140px;
+  width: 120px;
 }
 .table-roi {
-  width: 100px;
+  width: 50px;
 }
 .table-state {
   width: 80px;
@@ -53,22 +56,21 @@ header #navbar {
   background-color: darkcyan;
 }
 #sidebar {
-  min-width: 60px;
+  flex: 0 0 60px;
   background-image: url(../img/sidebar-bg.png);
   background-color: #051e34;
   color: white;
 }
 #dashboard {
   height: calc(100vh - 80px);
-  background-color: #555;
-  width: 100%;
+  flex: 1 1 auto;
   overflow-y: auto;
 }
 
 /* LAPTOP --------------------------------- */
 @media screen and (min-width: 992px) {
   #sidebar {
-    min-width: 130px;
+    flex-basis: 130px;
   }
   .icons i {
     width: 30px;
