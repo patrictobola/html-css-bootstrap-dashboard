@@ -26,8 +26,24 @@
 }
 
 /* Dashboard Cards Section -------------------------------- */
-#dashboard .card-section img {
+/* Table ------ */
+#dashboard .table img {
   height: 30px;
+}
+
+.table-start-date {
+  width: 140px;
+}
+.table-roi {
+  width: 100px;
+}
+.table-state {
+  width: 80px;
+  text-align: center;
+}
+.table-actions {
+  width: 130px;
+  text-align: center;
 }
 
 /* TODO fix Layout  */
