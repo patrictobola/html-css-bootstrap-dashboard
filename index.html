@@ -111,10 +111,114 @@
                             class="new-student col-10 col-md-4 col-lg-3 d-flex order-md-1 justify-content-md-center mb-3">
                             <div class="d-flex">
                                 <span class="me-3 align-self-center align-self-md-start pt-1">Nuovo Studente</span>
-                                <button type="button"
-                                    class="btn btn-outline-light d-flex justify-content-center align-items-center">
-                                    <i class="fas fa-plus fa"></i>
-                                </button>
+                                <!-- New student Form offcanvas  -->
+                                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i
+                                        class="fas fa-plus fa"></i></button>
+                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                                    aria-labelledby="offcanvasRightLabel">
+                                    <div class="offcanvas-header">
+                                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <!-- Offcanvas body  -->
+                                    <div class="offcanvas-body">
+                                        <form action="https://marcolanci.it/lezioni/read_form.php" method="POST">
+                                            <div class="container">
+                                                <div class="row g-3 text-black">
+                                                    <!-- Name  -->
+                                                    <div class="col-6">
+                                                        <label for="name" class="form-label">Nome</label>
+                                                        <input type="text" name="name" id="name" class="form-control">
+                                                    </div>
+                                                    <!-- Surname  -->
+                                                    <div class="col-6">
+                                                        <label for="cognome" class="form-label">Cognome</label>
+                                                        <input type="text" name="cognome" id="cognome"
+                                                            class="form-control">
+                                                    </div>
+                                                    <!-- email  -->
+                                                    <div class="col-6">
+                                                        <label for="email" class="form-label">Email</label>
+                                                        <div class="input-group flex-nowrap">
+                                                            <span class="input-group-text" id="addon-wrapping">@</span>
+                                                            <input type="email" name="email" id="email"
+                                                                class="form-control" placeholder="Email"
+                                                                aria-label="Username" aria-describedby="addon-wrapping">
+                                                        </div>
+                                                    </div>
+                                                    <!-- psw  -->
+                                                    <div class="col-6">
+                                                        <label for="psw" class="form-label">Password</label>
+                                                        <input type="password" name="psw" id="psw" class="form-control">
+                                                    </div>
+                                                    <!-- conf email  -->
+                                                    <div class="col-6">
+                                                        <label for="conf-email" class="form-label">Confirm Email</label>
+                                                        <div class="input-group flex-nowrap">
+                                                            <span class="input-group-text" id="addon-wrapping">@</span>
+                                                            <input type="email" name="conf-email" id="conf-email"
+                                                                class="form-control" placeholder="Email"
+                                                                aria-label="Username" aria-describedby="addon-wrapping">
+                                                        </div>
+                                                    </div>
+                                                    <!-- conf psw  -->
+                                                    <div class="col-6">
+                                                        <label for="conf-psw" class="form-label">Confirm
+                                                            Password</label>
+                                                        <input type="password" name="conf-psw" id="conf-psw"
+                                                            class="form-control">
+                                                    </div>
+                                                    <!-- address  -->
+                                                    <div class="col-12">
+                                                        <label for="address" class="form-label">Indirizzo</label>
+                                                        <input type="text" name="address" id="address"
+                                                            class="form-control">
+                                                    </div>
+                                                    <!-- city  -->
+                                                    <div class="col-6">
+                                                        <label for="city" class="form-label">Città</label>
+                                                        <input type="text" name="city" id="city" class="form-control">
+                                                    </div>
+                                                    <!-- state  -->
+                                                    <div class="col-4">
+                                                        <label for="state" class="form-label">Stato</label>
+                                                        <select class="form-select" name="state" id="state"
+                                                            aria-label="Default select example">
+                                                            <option selected>Scegli...</option>
+                                                            <option value="1">Lorem</option>
+                                                            <option value="2">Ipsum</option>
+                                                            <option value="3">Dolor</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="col-2">
+                                                        <label for="cap" class="form-label">CAP</label>
+                                                        <input type="text" name="cap" id="cap" maxlength="5"
+                                                            minlength="5" class="form-control">
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <label for="formFile" class="form-label">Foto</label>
+                                                        <input class="form-control" name="picture" type="file"
+                                                            id="formFile">
+                                                    </div>
+                                                    <div class="form-check ms-1">
+                                                        <input class="form-check-input" type="checkbox" value=""
+                                                            id="flexCheckDefault" required>
+                                                        <label class="form-check-label" for="flexCheckDefault">
+                                                            Seleziona per proseguire
+                                                        </label>
+                                                    </div>
+                                                    <div class="col w-100"></div>
+                                                    <div class="col-12">
+                                                        <input type="submit" class="btn btn-primary" value="Salva">
+                                                        <input type="reset" class="btn btn-warning" value="Svuota">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <!-- Boolean app pills  -->

@@ -78,6 +78,20 @@ header #navbar {
   overflow-y: auto;
 }
 
+/* breakpoints:
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px;
+ */
+/* MOBILE --------------------------------- */
+@media screen and (min-width: 0) {
+  .offcanvas.offcanvas-end {
+    width: 100%;
+  }
+}
 /* LAPTOP --------------------------------- */
 @media screen and (min-width: 992px) {
   #sidebar {
@@ -85,5 +99,8 @@ header #navbar {
   }
   .icons i {
     width: 30px;
+  }
+  .offcanvas.offcanvas-end {
+    width: 50%;
   }
 }
