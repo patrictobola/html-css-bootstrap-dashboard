@@ -8,7 +8,12 @@
 .fa-bell {
   color: orangered;
 }
-
+#navbar form {
+  background-color: #e5e5e5;
+}
+#navbar form input {
+  background-color: #e5e5e5;
+}
 /* ! MAIN */
 /* Sidebar ------------------------------------- */
 
